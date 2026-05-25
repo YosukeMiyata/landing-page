@@ -1,0 +1,189 @@
+Start building sites … 
+hugo v0.92.2-CDF6A0D6+extended darwin/arm64 BuildDate=2022-02-11T14:17:39Z VendorInfo=gohugoio
+ERROR 2026/02/07 21:12:52 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+WARN 2026/02/07 21:12:52 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:12:52 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:12:52 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:12:52 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:12:52 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:12:52 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:12:52 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:12:52 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:12:52 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:12:52 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+
+                   | JA  | EN   
+-------------------+-----+------
+  Pages            | 131 |  94  
+  Paginator pages  |   0 |   0  
+  Non-page files   |   0 |   0  
+  Static files     | 883 | 883  
+  Processed images |   0 |   0  
+  Aliases          |   1 |   0  
+  Sitemaps         |   2 |   1  
+  Cleaned          |   0 |   0  
+
+Built in 434 ms
+Watching for changes in /Users/yousuke/DFGC/landing-page/{archetypes,assets,content,data,layouts,package.json,static}
+Watching for config changes in /Users/yousuke/DFGC/landing-page/config.toml
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2026-02-07 21:15:32.736 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html": WRITE
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/07 21:15:32 render of "page" failed: "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html:42:78": execute of template failed: template: _default/landing.html:42:78: executing "_default/landing.html" at <resources.ExecuteAsTemplate>: error calling ExecuteAsTemplate: type <nil> not supported in Resource transformations
+ERROR 2026/02/07 21:15:32 render of "page" failed: "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html:42:78": execute of template failed: template: _default/landing.html:42:78: executing "_default/landing.html" at <resources.ExecuteAsTemplate>: error calling ExecuteAsTemplate: type <nil> not supported in Resource transformations
+ERROR 2026/02/07 21:15:32 render of "page" failed: "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html:42:78": execute of template failed: template: _default/page.html:42:78: executing "_default/page.html" at <resources.ExecuteAsTemplate>: error calling ExecuteAsTemplate: type <nil> not supported in Resource transformations
+ERROR 2026/02/07 21:15:32 render of "page" failed: "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html:42:78": execute of template failed: template: _default/page.html:42:78: executing "_default/page.html" at <resources.ExecuteAsTemplate>: error calling ExecuteAsTemplate: type <nil> not supported in Resource transformations
+ERROR 2026/02/07 21:15:32 Rebuild failed:
+
+ERROR 2026/02/07 21:15:32 Failed to render pages: render of "page" failed: "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html:42:78": execute of template failed: template: _default/landing.html:42:78: executing "_default/landing.html" at <resources.ExecuteAsTemplate>: error calling ExecuteAsTemplate: type <nil> not supported in Resource transformations
+Total in 51 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:16:55.230 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html": WRITE
+ERROR 2026/02/07 21:16:55 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 178 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:21:30.284 +0900
+ERROR 2026/02/07 21:21:30 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 41 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:21:35.259 +0900
+ERROR 2026/02/07 21:21:35 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 42 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:21:37.253 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/07 21:21:37 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 86 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:26:18.818 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html": WRITE
+ERROR 2026/02/07 21:26:18 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 131 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:26:40.378 +0900
+ERROR 2026/02/07 21:26:40 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 51 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:28:19.393 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html": WRITE
+ERROR 2026/02/07 21:28:19 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 68 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:29:36.659 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html": WRITE
+ERROR 2026/02/07 21:29:36 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 82 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:29:38.446 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html": WRITE
+ERROR 2026/02/07 21:29:38 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 57 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:32:03.968 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html": CREATE
+ERROR 2026/02/07 21:32:04 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 78 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:32:07.099 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html": CREATE
+ERROR 2026/02/07 21:32:07 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 80 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:38:40.164 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/07 21:38:40 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 79 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:46:28.917 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html": WRITE
+ERROR 2026/02/07 21:46:28 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 108 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:46:30.477 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/07 21:46:30 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 60 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:46:52.968 +0900
+ERROR 2026/02/07 21:46:52 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 59 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:49:02.960 +0900
+ERROR 2026/02/07 21:49:02 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 55 ms
+
+Change detected, rebuilding site.
+2026-02-07 21:49:07.547 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html": CREATE
+ERROR 2026/02/07 21:49:07 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 72 ms
+
+Change detected, rebuilding site.
+2026-02-07 22:00:41.896 +0900
+ERROR 2026/02/07 22:00:41 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 114 ms
+
+Change detected, rebuilding site.
+2026-02-07 22:00:52.944 +0900
+ERROR 2026/02/07 22:00:52 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 53 ms
+
+Change detected, rebuilding site.
+2026-02-07 22:00:54.939 +0900
+ERROR 2026/02/07 22:00:54 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 93 ms
+
+Change detected, rebuilding site.
+2026-02-07 22:01:21.761 +0900
+ERROR 2026/02/07 22:01:21 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 90 ms
+
+Change detected, rebuilding site.
+2026-02-07 22:01:23.779 +0900
+ERROR 2026/02/07 22:01:23 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 55 ms
+
+Change detected, rebuilding site.
+2026-02-07 22:01:40.330 +0900
+ERROR 2026/02/07 22:01:40 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+ERROR 2026/02/07 22:01:40 Rebuild failed:
+
+ERROR 2026/02/07 22:01:40 TOCSS: failed to transform " assets/css/main.css" (text/x-scss): SCSS processing failed: file "/Users/yousuke/DFGC/landing-page/assets/sass/imports/_sections.scss", line 737, col 3: Invalid CSS after "  }": expected "}", was "" 
+Total in 149 ms
+
+Change detected, rebuilding site.
+2026-02-07 22:01:42.130 +0900
+ERROR 2026/02/07 22:01:42 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+ERROR 2026/02/07 22:01:42 Rebuild failed:
+
+ERROR 2026/02/07 22:01:42 TOCSS: failed to transform " assets/css/main.css" (text/x-scss): SCSS processing failed: file "/Users/yousuke/DFGC/landing-page/assets/sass/imports/_sections.scss", line 737, col 3: Invalid CSS after "  }": expected "}", was "" 
+Total in 74 ms
+
+Change detected, rebuilding site.
+2026-02-07 22:03:13.076 +0900
+ERROR 2026/02/07 22:03:13 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 56 ms

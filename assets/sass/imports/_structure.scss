@@ -1,3 +1,21 @@
+// =============================================================================
+// Structure - Cosmic Space Theme
+// =============================================================================
+
+body {
+  background: #050508;
+}
+
+#global-cosmic-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
 .site {
   display: -ms-flexbox;
   display: flex;
@@ -5,6 +23,7 @@
   flex-direction: column;
   min-height: 100vh;
   position: relative;
+  background: transparent;
 }
 
 .site-content {
@@ -15,13 +34,28 @@
 }
 
 .outer {
-  padding: 3.33333em $container-padding 2.5em;
+  padding: 4em $container-padding 3em;
+  position: relative;
+
+  // Center buttons in general content areas (Docs, Join)
+  .block-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+  }
 }
 
 @media only screen and (min-width: 601px) {
   .outer {
-    padding-bottom: 3.33333em;
-    padding-top: 4.16667em;
+    padding-bottom: 5em;
+    padding-top: 5em;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .outer {
+    padding-bottom: 6em;
+    padding-top: 6em;
   }
 }
 
@@ -47,4 +81,49 @@
   margin-left: auto;
   margin-right: auto;
   max-width: $container-sm;
+}
+
+// =============================================================================
+// Grid System
+// =============================================================================
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $grid-gap;
+}
+
+.cell {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+@media only screen and (min-width: 601px) {
+  .cell-half {
+    flex: 0 0 calc(50% - #{$grid-gap / 2});
+  }
+
+  .cell-third {
+    flex: 0 0 calc(33.333% - #{$grid-gap * 2 / 3});
+  }
+}
+
+// =============================================================================
+// Card Component
+// =============================================================================
+
+.card {
+  background: transparent;
+  border: $glass-border;
+  border-radius: $border-radius-lg;
+  padding: 1.5rem;
+  transition:
+    transform $transition-normal,
+    box-shadow $transition-normal,
+    border-color $transition-normal;
+
+  &:hover {
+    box-shadow: $box-shadow-glow;
+    border-color: rgba($color-primary, 0.3);
+  }
 }

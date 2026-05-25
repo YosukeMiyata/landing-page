@@ -1,42 +1,116 @@
+// =============================================================================
+// Button Styles - Dark Theme
+// =============================================================================
+
 .button {
   -ms-flex-align: center;
   align-items: center;
-  background: $color-primary;
-  border: 2px solid $color-primary;
-  border-radius: $border-radius;
+  background: $gradient-primary;
+  border: none;
+  border-radius: $border-radius-full;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: 0.88889em;
-  font-weight: bold;
+  font-size: 0.9em;
+  font-weight: 600;
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1.5;
-  padding: 0.5em 1.875em;
+  padding: 0.75em 2em;
   text-decoration: none;
-  -webkit-transition: opacity .15s ease-in-out;
-  transition: opacity .15s ease-in-out;
+  transition:
+    transform $transition-normal,
+    box-shadow $transition-normal,
+    opacity $transition-fast;
+  position: relative;
+  overflow: hidden;
+
+  // Subtle glow effect on hover
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg,
+        rgba(255, 255, 255, 0.2) 0%,
+        transparent 50%);
+    opacity: 0;
+    transition: opacity $transition-normal;
+  }
 
   .font-fira-sans & {
     font-weight: 600;
   }
 
   &:hover,
-  &:focus,
-  &:active {
+  &:focus {
     color: #fff;
-    opacity: 0.8;
+    transform: translateY(-2px);
+    box-shadow:
+      0 10px 30px rgba($color-primary, 0.4),
+      0 0 0 2px rgba($color-primary, 0.2);
     outline: 0;
+
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 15px rgba($color-primary, 0.3);
   }
 
   &.large {
-    padding: 0.625em 2.5em;
+    padding: 1em 3em;
+    font-size: 1em;
   }
 
+  // Secondary / Ghost button
   &.secondary {
     background: transparent;
-    color: $color-primary;
+    border: 2px solid $gray-400;
+    color: $gray-600;
+
+    &:hover,
+    &:focus {
+      border-color: $color-primary;
+      color: $color-primary;
+      box-shadow: 0 0 20px rgba($color-primary, 0.2);
+    }
+  }
+
+  // Icon styling
+  .icon {
+    margin-right: 0.5em;
+  }
+}
+
+// Button group
+.block-buttons {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5em 0 1em;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  a {
+    font-size: 0.9em;
+    font-weight: 600;
+
+    .font-fira-sans & {
+      font-weight: 600;
+    }
   }
 }

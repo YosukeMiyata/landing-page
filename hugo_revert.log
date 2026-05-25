@@ -1,0 +1,14 @@
+port 1313 already in use, attempting to use an available port
+Start building sites … 
+hugo v0.92.2-CDF6A0D6+extended darwin/arm64 BuildDate=2022-02-11T14:17:39Z VendorInfo=gohugoio
+WARN 2026/02/07 21:08:09 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:08:09 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:08:09 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:08:09 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 21:08:09 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+ERROR 2026/02/07 21:08:09 render of "page" failed: "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html:42:78": execute of template failed: template: _default/landing.html:42:78: executing "_default/landing.html" at <resources.ExecuteAsTemplate>: error calling ExecuteAsTemplate: type <nil> not supported in Resource transformations
+ERROR 2026/02/07 21:08:09 render of "page" failed: "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html:42:78": execute of template failed: template: _default/landing.html:42:78: executing "_default/landing.html" at <resources.ExecuteAsTemplate>: error calling ExecuteAsTemplate: type <nil> not supported in Resource transformations
+ERROR 2026/02/07 21:08:09 render of "page" failed: "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html:42:78": execute of template failed: template: _default/page.html:42:78: executing "_default/page.html" at <resources.ExecuteAsTemplate>: error calling ExecuteAsTemplate: type <nil> not supported in Resource transformations
+ERROR 2026/02/07 21:08:09 render of "page" failed: "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html:42:78": execute of template failed: template: _default/page.html:42:78: executing "_default/page.html" at <resources.ExecuteAsTemplate>: error calling ExecuteAsTemplate: type <nil> not supported in Resource transformations
+Error: Error building site: failed to render pages: render of "page" failed: "/Users/yousuke/DFGC/landing-page/layouts/_default/baseof.html:42:78": execute of template failed: template: _default/landing.html:42:78: executing "_default/landing.html" at <resources.ExecuteAsTemplate>: error calling ExecuteAsTemplate: type <nil> not supported in Resource transformations
+Built in 412 ms

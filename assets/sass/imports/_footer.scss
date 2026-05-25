@@ -1,6 +1,11 @@
+// =============================================================================
+// Footer Styles - Dark Theme
+// =============================================================================
+
 #colophon {
-  background: $gray-700;
-  color: $gray-400;
+  background: $bg-secondary;
+  color: $gray-500;
+  border-top: $glass-border;
 
   h1,
   h2,
@@ -8,47 +13,58 @@
   h4,
   h5,
   h6 {
-    color: $gray-200;
+    color: $gray-700;
   }
 
   a {
     &:not(.button) {
       color: inherit;
+      transition: color $transition-fast;
 
       &:hover {
-        color: $gray-200;
+        color: $color-primary;
       }
     }
   }
 }
 
 .footer-top {
-  border-bottom: 1px solid rgba($gray-600,.4);
-  padding-bottom: 1.11111em;
-  padding-top: 3.33333em;
+  border-bottom: 1px solid $gray-300;
+  padding-bottom: 2em;
+  padding-top: 4em;
 }
 
 .footer-bottom {
-  padding-bottom: 1.66667em;
-  padding-top: 1.66667em;
+  padding-bottom: 2em;
+  padding-top: 2em;
   text-align: center;
 }
 
 .widget {
   font-size: 0.88889em;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 2.5em;
 }
 
 .widget-image {
   display: block;
   margin-right: 4.5em;
-  margin-bottom: 0.75em;
+  margin-bottom: 1em;
+
+  img {
+    opacity: 0.8;
+    transition: opacity $transition-normal;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
 
 .widget-title {
   font-size: 1.125em;
-  margin: 0 0 1.2em;
+  margin: 0 0 1.25em;
+  color: $gray-600;
 }
 
 .widget-nav,
@@ -66,7 +82,7 @@
   }
 
   .icon {
-    & + :not(.order-first) {
+    &+ :not(.order-first) {
       margin-left: 0.75em;
     }
   }
@@ -82,23 +98,40 @@
 .site-info {
   font-size: 0.77778em;
   line-height: 1.5;
+  color: $gray-500;
 
   &:not(:first-child) {
     margin-top: 1em;
   }
 }
 
+// Social links styling
+.widget-nav .menu-item a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5em 0;
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+    transition: opacity $transition-fast;
+  }
+
+  &:hover .icon {
+    opacity: 1;
+  }
+}
+
 @media only screen and (min-width: 481px) {
   .footer-top {
     .cell {
-      -ms-flex: 0 0 50%;
       flex: 0 0 50%;
       max-width: 50%;
     }
 
     .widget-text {
       &:first-child {
-        -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
       }
@@ -110,8 +143,7 @@
   .footer-top {
     .widget-text {
       &:first-child {
-        & ~ .cell {
-          -ms-flex: 0 0 33.333%;
+        &~.cell {
           flex: 0 0 33.333%;
           max-width: 33.333%;
         }
@@ -123,16 +155,14 @@
 @media only screen and (min-width: 901px) {
   .footer-top {
     .grid {
-      -ms-flex-pack: center;
       justify-content: center;
     }
 
     .cell,
     .widget-text:first-child,
-    .widget-text:first-child ~ .cell {
-      -ms-flex: 0 0 25%;
-      flex: 0 0 25%;
-      max-width: 25%;
+    .widget-text:first-child~.cell {
+      flex: 0 0 calc(25% - 1.5rem); // Adjust for gap (3 * 2rem / 4 = 1.5rem)
+      max-width: calc(25% - 1.5rem);
     }
   }
 }

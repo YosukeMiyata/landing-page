@@ -1,0 +1,16 @@
+port 1313 already in use, attempting to use an available port
+Start building sites … 
+hugo v0.92.2-CDF6A0D6+extended darwin/arm64 BuildDate=2022-02-11T14:17:39Z VendorInfo=gohugoio
+ERROR 2026/02/07 22:01:54 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+WARN 2026/02/07 22:01:54 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 22:01:54 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 22:01:54 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 22:01:54 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 22:01:54 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 22:01:54 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 22:01:54 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 22:01:54 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 22:01:54 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/07 22:01:54 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+Error: Error building site: TOCSS: failed to transform " assets/css/main.css" (text/x-scss): SCSS processing failed: file "/Users/yousuke/DFGC/landing-page/assets/sass/imports/_sections.scss", line 737, col 3: Invalid CSS after "  }": expected "}", was "" 
+Built in 803 ms

@@ -1,0 +1,202 @@
+Start building sites … 
+hugo v0.92.2-CDF6A0D6+extended darwin/arm64 BuildDate=2022-02-11T14:17:39Z VendorInfo=gohugoio
+ERROR 2026/02/10 20:40:06 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+WARN 2026/02/10 20:40:06 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/10 20:40:06 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/10 20:40:06 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/10 20:40:06 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/10 20:40:06 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/10 20:40:06 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/10 20:40:06 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/10 20:40:06 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/10 20:40:06 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2026/02/10 20:40:06 found no layout file for "HTML" for kind "term": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+
+                   | JA  | EN   
+-------------------+-----+------
+  Pages            | 131 |  94  
+  Paginator pages  |   0 |   0  
+  Non-page files   |   0 |   0  
+  Static files     | 883 | 883  
+  Processed images |   0 |   0  
+  Aliases          |   1 |   0  
+  Sitemaps         |   2 |   1  
+  Cleaned          |   0 |   0  
+
+Built in 414 ms
+Watching for changes in /Users/yousuke/DFGC/landing-page/{archetypes,assets,content,data,layouts,package.json,static}
+Watching for config changes in /Users/yousuke/DFGC/landing-page/config.toml
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2026-02-10 20:52:09.099 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 20:52:09 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 70 ms
+
+Change detected, rebuilding site.
+2026-02-10 20:53:21.093 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 20:53:21 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 82 ms
+
+Change detected, rebuilding site.
+2026-02-10 20:58:44.101 +0900
+ERROR 2026/02/10 20:58:44 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 101 ms
+
+Change detected, rebuilding site.
+2026-02-10 20:59:21.094 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 20:59:21 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 87 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:00:17.094 +0900
+ERROR 2026/02/10 21:00:17 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 81 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:00:53.593 +0900
+ERROR 2026/02/10 21:00:53 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 53 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:00:58.592 +0900
+ERROR 2026/02/10 21:00:58 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+ERROR 2026/02/10 21:00:58 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+ERROR 2026/02/10 21:00:58 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 38 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:02:58.094 +0900
+ERROR 2026/02/10 21:02:58 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 62 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:03:24.593 +0900
+ERROR 2026/02/10 21:03:24 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 56 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:03:31.593 +0900
+ERROR 2026/02/10 21:03:31 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+ERROR 2026/02/10 21:03:31 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 74 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:04:56.099 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 21:04:56 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 90 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:05:07.593 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 21:05:07 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 77 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:05:42.094 +0900
+ERROR 2026/02/10 21:05:42 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 79 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:05:55.095 +0900
+ERROR 2026/02/10 21:05:55 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 70 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:06:14.095 +0900
+ERROR 2026/02/10 21:06:14 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 59 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:06:33.593 +0900
+ERROR 2026/02/10 21:06:33 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 78 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:07:01.594 +0900
+ERROR 2026/02/10 21:07:01 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 53 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:08:56.094 +0900
+ERROR 2026/02/10 21:08:56 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 60 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:09:08.095 +0900
+ERROR 2026/02/10 21:09:08 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 65 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:09:35.594 +0900
+ERROR 2026/02/10 21:09:35 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 50 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:09:42.593 +0900
+ERROR 2026/02/10 21:09:42 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 55 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:09:48.094 +0900
+ERROR 2026/02/10 21:09:48 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 48 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:09:53.594 +0900
+ERROR 2026/02/10 21:09:53 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 52 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:09:59.594 +0900
+ERROR 2026/02/10 21:09:59 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 73 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:10:50.097 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 21:10:50 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 180 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:10:57.594 +0900
+ERROR 2026/02/10 21:10:57 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 63 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:12:27.601 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 21:12:27 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 102 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:12:30.594 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 21:12:30 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 72 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:12:43.595 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 21:12:43 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 44 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:12:48.594 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 21:12:48 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 56 ms
+
+Change detected, rebuilding site.
+2026-02-10 21:13:17.094 +0900
+Template changed "/Users/yousuke/DFGC/landing-page/layouts/partials/section_hero.html": WRITE
+ERROR 2026/02/10 21:13:17 Page.URL is deprecated and will be removed in Hugo 0.93.0. Use .Permalink or .RelPermalink. If what you want is the front matter URL value, use .Params.url
+Total in 58 ms

@@ -1,8 +1,26 @@
+// =============================================================================
+// Header Styles - Transparent for Cosmic Theme
+// =============================================================================
+
 .site-header {
-  background: #fff;
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-bottom: none;
   color: $gray-700;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  transition: all $transition-normal;
+  position: relative;
+  z-index: 100;
+
+  // Glass effect when scrolled - Made transparent for cosmic theme
+  &.scrolled {
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border-bottom: none;
+  }
 
   a {
     text-decoration: none;
@@ -23,10 +41,11 @@
 
 .site-title {
   color: $gray-700;
-  font-size: 1.33333em;
-  font-weight: bold;
+  font-size: 1.5em;
+  font-weight: 700;
   line-height: 1.2;
   margin: 0;
+  letter-spacing: -0.02em;
 
   .font-fira-sans & {
     font-weight: 600;
@@ -37,13 +56,20 @@
   margin: 0;
 
   img {
-    max-height: 40px;
+    max-height: 48px;
+    transition: transform $transition-normal;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }
 
 .site-navigation {
   .button {
     font-size: 1em;
+    padding: 0.5em 1.25em;
+    border-radius: $border-radius-full;
   }
 }
 
@@ -51,23 +77,33 @@
   .site-branding {
     a {
       color: inherit;
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 
   .site-navigation {
     .current-menu-item {
-      color: $gray-500;
+      color: $color-primary;
     }
 
     a:not(.button) {
-      color: inherit;
-  
+      color: $gray-600;
+      font-weight: 500;
+      transition: color $transition-fast;
+
       &:hover {
-        color: $gray-500;
+        color: $gray-700;
       }
     }
   }
 }
+
+// =============================================================================
+// Desktop Navigation
+// =============================================================================
 
 @media only screen and (min-width: 801px) {
   .menu-toggle {
@@ -77,34 +113,53 @@
   .site-navigation {
     margin-left: auto;
 
+    .menu {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
     .menu-item {
       display: inline-block;
-      margin: 0 0 0 1.875em;
+      margin: 0 0 0 1.5em;
     }
 
     .button {
-      padding: 0.25em 0.9375em;
+      padding: 0.5em 1.25em;
+      background: $gradient-primary;
+      border: none;
+      color: white;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba($color-primary, 0.4);
+      }
     }
 
-    .menu-button + .menu-button {
-      margin-left: 0.9375em;
+    .menu-button+.menu-button {
+      margin-left: 0.75em;
     }
   }
 
   @supports (position: sticky) or (position: -webkit-sticky) {
     .site-header {
-      background: #fff;
+      background: $bg-glass;
       position: -webkit-sticky;
       position: sticky;
-      top:0;
+      top: 0;
       z-index: 999;
 
       .has--scrolled & {
-        box-shadow: $box-shadow-sm;
+        background: rgba($bg-primary, 0.95);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
       }
     }
   }
 }
+
+// =============================================================================
+// Mobile Navigation
+// =============================================================================
 
 @media only screen and (max-width: 800px) {
   .site {
@@ -114,15 +169,15 @@
 
   .site-header {
     &:before {
-      background: rgba($gray-100, .75);
+      background: rgba($bg-primary, 0.8);
+      backdrop-filter: blur(10px);
       content: "";
       height: 100vh;
       left: 0;
       opacity: 0;
       position: absolute;
       top: 0;
-      -webkit-transition: opacity .15s ease-in-out,visibility 0s ease-in-out .15s;
-      transition: opacity .15s ease-in-out,visibility 0s ease-in-out .15s;
+      transition: opacity 0.3s ease-in-out, visibility 0s ease-in-out 0.3s;
       visibility: hidden;
       width: 100%;
       z-index: 998;
@@ -133,7 +188,7 @@
     background: 0;
     border: 0;
     box-shadow: none;
-    color: inherit;
+    color: $gray-700;
     display: block;
     cursor: pointer;
     font-size: inherit;
@@ -141,6 +196,11 @@
     padding: 0;
     position: relative;
     width: 1.66667rem;
+    transition: color $transition-fast;
+
+    &:hover {
+      color: $color-primary;
+    }
 
     &:hover,
     &:focus,
@@ -160,29 +220,29 @@
   }
 
   .site-navigation {
-    background: #fff;
+    background: $bg-secondary;
+    border-left: $glass-border;
     box-sizing: border-box;
     height: 100vh;
     -webkit-overflow-scrolling: touch;
     position: absolute;
     right: -400px;
     top: 0;
-    -webkit-transition: right .3s ease-in-out, visibility 0s .3s ease-in-out;
-    transition: right .3s ease-in-out, visibility 0s .3s ease-in-out;
+    transition: right 0.3s ease-in-out, visibility 0s 0.3s ease-in-out;
     visibility: hidden;
     width: 400px;
     z-index: 999;
 
     .menu {
-      padding: 3.66667em $container-padding 2.5em;
+      padding: 4em $container-padding 2.5em;
     }
 
     .menu-item {
       &:not(.menu-button) {
-        border-bottom: 1px solid $gray-200;
+        border-bottom: 1px solid $gray-300;
 
         &:first-child {
-          border-top: 1px solid $gray-200;
+          border-top: 1px solid $gray-300;
         }
       }
 
@@ -194,12 +254,18 @@
     a {
       &:not(.button) {
         display: block;
-        padding: 0.75em 0;
+        padding: 1em 0;
+        color: $gray-600;
+
+        &:hover {
+          color: $color-primary;
+        }
       }
     }
 
     .button {
       width: 100%;
+      text-align: center;
     }
   }
 
@@ -217,7 +283,6 @@
       overflow: hidden;
       position: fixed;
       top: 0;
-      -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
       width: 100%;
       z-index: 997;
@@ -225,15 +290,13 @@
 
     .site-navigation {
       right: 0;
-      -webkit-transition: right .3s ease-in-out;
-      transition: right .3s ease-in-out;
+      transition: right 0.3s ease-in-out;
       visibility: visible;
     }
 
     .site-header {
       &:before {
         opacity: 1;
-        -webkit-transition-delay: 0s;
         transition-delay: 0s;
         visibility: visible;
       }

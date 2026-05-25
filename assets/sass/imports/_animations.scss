@@ -1,0 +1,244 @@
+// =============================================================================
+// Animations & Keyframes
+// =============================================================================
+
+// Fade In animations
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+// Scale animations
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+// Glow pulse animation
+@keyframes glowPulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 20px rgba($color-primary, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 40px rgba($color-primary, 0.5);
+    }
+}
+
+// Gradient shift
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+// Float animation
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+// =============================================================================
+// Utility Classes for Scroll Animations
+// =============================================================================
+
+// Initial hidden state (JavaScript will reveal)
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition:
+        opacity $transition-smooth,
+        transform $transition-smooth;
+
+    &.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    opacity: 0;
+    transition: opacity $transition-smooth;
+
+    &.is-visible {
+        opacity: 1;
+    }
+}
+
+.animate-scale-in {
+    opacity: 0;
+    transform: scale(0.95);
+    transition:
+        opacity $transition-smooth,
+        transform $transition-smooth;
+
+    &.is-visible {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-from-left {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition:
+        opacity $transition-smooth,
+        transform $transition-smooth;
+
+    &.is-visible {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-from-right {
+    opacity: 0;
+    transform: translateX(40px);
+    transition:
+        opacity $transition-smooth,
+        transform $transition-smooth;
+
+    &.is-visible {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+// Stagger delay utilities
+@for $i from 1 through 10 {
+    .animate-delay-#{$i} {
+        transition-delay: #{$i * 0.1}s;
+    }
+}
+
+// =============================================================================
+// Hover Effects
+// =============================================================================
+
+.hover-lift {
+    transition: transform $transition-normal, box-shadow $transition-normal;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: $box-shadow-glow;
+    }
+}
+
+.hover-glow {
+    transition: box-shadow $transition-normal;
+
+    &:hover {
+        box-shadow: 0 0 30px rgba($color-primary, 0.4);
+    }
+}
+
+.hover-scale {
+    transition: transform $transition-normal;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
+// Gradient text on hover
+.gradient-text {
+    background: $gradient-primary;
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.gradient-text-animated {
+    @extend .gradient-text;
+    animation: gradientShift 4s ease infinite;
+}
+
+// =============================================================================
+// Glass Card Effect
+// =============================================================================
+
+.glass-card {
+    background: $bg-glass;
+    backdrop-filter: $glass-blur;
+    -webkit-backdrop-filter: $glass-blur;
+    border: $glass-border;
+    border-radius: $border-radius-lg;
+}
