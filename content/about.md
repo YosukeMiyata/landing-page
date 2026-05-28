@@ -37,6 +37,12 @@ sections:
         - DFGC最初のDappでテストネットローンチに向けて開発中
       - Yabumi
         - SNSアカウント宛にトークン等の送信が可能になるDapp
+      - punodwoɔ
+        - 管理者（第三者）を介さずユーザー同士で貸し借りができるDapp
+      - Yamawake
+        - パーミッションレスにトークンオークションの開催、参加が行えるDapp
+      - Megumi
+        - Merkle Treeベースの汎用エアドロップツール
 
       プロダクト開発だけでなく、コミュニティを形成するのに必要なルールやガバナンスフローといった事項にも日々取り組んでいます。
 
@@ -90,22 +96,10 @@ sections:
         avatar: https://avatars.githubusercontent.com/u/92980001?v=4
         role: 開発部
         url: 
-      - alias: take3315
-        avatar: https://www.yabumi.xyz/_next/image?url=http%3A%2F%2Fimage.yabumi.xyz%2Fmainnet%2F9.png&w=128&q=75
-        role: ストラテジスト、財務部
-        url: 
       - alias: yosuke
         avatar: https://avatars.githubusercontent.com/u/49312744?v=4
         role: 開発部、広報部
         url: https://github.com/YosukeMiyata
-      - alias: auro
-        avatar: https://avatars.githubusercontent.com/u/183041063?v=4
-        role: 運営サポート、広報部
-        url: https://github.com/auro-o
-      - alias: 風景
-        avatar: https://www.yabumi.xyz/_next/image?url=http%3A%2F%2Fimage.yabumi.xyz%2Fmainnet%2F43.png&w=128&q=75
-        role: 運営サポート
-        url: 
       - alias: cotaro
         avatar: https://www.yabumi.xyz/_next/image?url=http%3A%2F%2Fimage.yabumi.xyz%2Fmainnet%2F14.png&w=128&q=75
         role: 運営サポート
