@@ -23,25 +23,25 @@ sections:
         image_alt: dapps
         content: >-
           DFGC is working on and envisioning various Dapps. The first Dapp is the Yamato Protocol, a crypto-backed stablecoin pegged to the JPY.
-#        actions:
-#          - label: Learn More
-#            url: /features
-#            style: secondary
-#            has_icon: true
-#            icon: arrow-right
-#            icon_position: right
+        actions:
+          - label: Learn More
+            url: /product
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
       - title: DAO：Decentralized Autonomous Organization
         image: images/feature-dao.webp
         image_alt: dao
         content: >-
           DFGC aims to be a DAO (Decentralized Autonomous Organization). There has been no bureaucracy or hierarchy of authority. No permanent role has assigned to individuals. Any community members is welcome to raise your hand to take over tasks or propose new ideas to run new initiatives, subject to pass by community voting.
-#        actions:
-#          - label: Learn More
-#            url: /features
-#            style: secondary
-#            has_icon: true
-#            icon: arrow-right
-#            icon_position: right
+        actions:
+          - label: Learn More
+            url: https://docs.defigeek.xyz/english-1?fallback=true
+            style: secondary
+            has_icon: ture
+            icon: arrow-right
+            icon_position: right
       - title: DeFi Support
         image: images/feature-defi-support.png
         image_alt: support
