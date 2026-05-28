@@ -45,3 +45,4 @@ DeFiGeek Community が開発した Dapp の公式ドキュメントです。
 | Yabumi | https://www.yabumi.xyz/ | https://doc.yabumi.xyz/ |
 | punodwoɔ | https://pnd.defigeek.xyz/ | https://pnd-docs.defigeek.xyz |
 | Yamawake | https://yamawake.xyz/ | https://docs.yamawake.xyz/ |
+| Megumi | https://megumi.defigeek.xyz/ | 整備中 |
