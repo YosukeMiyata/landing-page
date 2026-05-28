@@ -76,65 +76,29 @@ sections:
         avatar: https://avatars.githubusercontent.com/u/78299521?v=4
         role: Admin
         url: https://github.com/cryptohiyoko
-      - alias: 0xMotoko
-        avatar: https://avatars.githubusercontent.com/u/83639348?v=4
-        role: Development Leader
-        url: https://github.com/0xMotoko
-      - alias: Anon
-        avatar: https://avatars.githubusercontent.com/u/83848415?v=4
-        role: Development Leader
-        url: 
-      - alias: Anon
-        avatar: https://avatars.githubusercontent.com/u/78298805?v=4
-        role: Development
-        url: 
-      - alias: somewherecat
-        avatar: https://cdn.discordapp.com/avatars/813069467206680576/7e8ef1d6b3fb0d2bc8032ad7730e1997.png
-        role: Development
-        url: 
-      - alias: TypingMonkey
-        avatar: https://avatars.githubusercontent.com/u/80204128?v=4
-        role: Development
-        url: https://github.com/panebinese
       - alias: Haku
         avatar: https://cdn.discordapp.com/avatars/551284380547416067/61df30752ba58a549fec0429313736bf.png?size=240
+        role: Development Leader
+        url: 
+      - alias: naizo
+        avatar: https://avatars.githubusercontent.com/u/76167545?v=4
+        role: Development Leader
+        url: 
+      - alias: Taka
+        avatar: https://avatars.githubusercontent.com/u/92980001?v=4
         role: Development
         url: 
-      - alias: Hau
-        avatar: https://cdn.discordapp.com/avatars/716634375562985522/9bc72ba3ef70375685f793b198ef0a1a.png
-        role: Design
+      - alias: yosuke
+        avatar: https://avatars.githubusercontent.com/u/49312744?v=4
+        role: Development、PR
+        url: https://github.com/YosukeMiyata
+      - alias: cotaro
+        avatar: https://www.yabumi.xyz/_next/image?url=http%3A%2F%2Fimage.yabumi.xyz%2Fmainnet%2F14.png&w=128&q=75
+        role: Support
         url: 
-      - alias: Anon
-        avatar: https://cdn.discordapp.com/avatars/380666022098894849/4e7faca113a08ed3c5f510b59335eed4.webp
-        role: Design
-        url: 
-      - alias: M24
-        avatar: https://cdn.discordapp.com/avatars/347725558764929024/062514185d7766e08c6a9bb0cd3c795f.webp
-        role: Design
-        url: 
-      - alias: Anon
-        avatar: https://avatars.githubusercontent.com/u/81340734?v=4
-        role: Moderator, Strategist
-        url: 
-      - alias: take3315
-        avatar: https://avatars.githubusercontent.com/u/74659639?v=4
-        role: Strategist
-        url: 
-      - alias: Nekoi Yuna
-        avatar: https://cdn.discordapp.com/avatars/479870569412689938/e7a0d22ced03b79922c9062d3eed2ff7.png
-        role: Moderator, PR
-        url: 
-      - alias: paru
-        avatar: https://avatars.githubusercontent.com/u/31604703?v=4
-        role: PR, Development
-        url: https://github.com/haruketh
-      - alias: crytakepto
-        avatar: https://avatars.githubusercontent.com/u/86736890?v=4
-        role: Finance
-        url: 
-      - alias: NAR
-        avatar: https://cdn.discordapp.com/avatars/597059337784918029/5c6130fb1d11e64c5e377c76b95ea4d8.png
-        role: 
+      - alias: fortune9
+        avatar: https://www.yabumi.xyz/_next/image?url=http%3A%2F%2Fimage.yabumi.xyz%2Fmainnet%2F10.png&w=128&q=75
+        role: Support
         url: 
 seo:
   title: About Us
