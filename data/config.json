@@ -87,11 +87,11 @@
                 "title_en": "JOIN",
                 "nav_links": [
                     {
-                        "label": "Twitter",
-                        "label_en": "Twitter",
+                        "label": "X",
+                        "label_en": "X",
                         "url": "https://twitter.com/defigeekjapan",
                         "has_icon": true,
-                        "icon": "twitter",
+                        "icon": "x",
                         "icon_position": "left"
                     },
                     {
