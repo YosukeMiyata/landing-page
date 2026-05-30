@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
     "build": "tinacms build && hugo",
+    "build:netlify": "bash -c 'if [ -n \"$CLIENTID\" ] && [ -n \"$TOKEN\" ]; then npm run build; else hugo --minify; fi'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
